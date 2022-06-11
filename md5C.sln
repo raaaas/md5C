@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "md5C", "md5C\md5C.csproj", "{76EF4127-A781-4C31-BB60-5619EB462BCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76EF4127-A781-4C31-BB60-5619EB462BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76EF4127-A781-4C31-BB60-5619EB462BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76EF4127-A781-4C31-BB60-5619EB462BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76EF4127-A781-4C31-BB60-5619EB462BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED40C2C2-45D1-4EB1-89E7-717D42F69AF9}
+	EndGlobalSection
+EndGlobal

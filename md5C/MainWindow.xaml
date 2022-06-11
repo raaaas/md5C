@@ -1,0 +1,31 @@
+﻿<Window x:Name="RaaS" x:Class="md5C.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:md5C"
+        mc:Ignorable="d"
+        Title="emp md5 cracker" Height="256" Width="425" Background="#FF0C0000" WindowStyle="None" AllowsTransparency="True" ResizeMode="NoResize">
+    <Grid Background="Black" Margin="0,0,0,4" MouseDown="movebitch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="32*"/>
+            <ColumnDefinition Width="365*"/>
+            <ColumnDefinition Width="28*"/>
+        </Grid.ColumnDefinitions>
+        <Button Content="crack!" HorizontalAlignment="Left" Margin="8,53,0,0" VerticalAlignment="Top" Width="171" Background="#FF5D0000" Click="Button_Click" Height="20" Grid.Column="1" BorderBrush="Red"/>
+        <TextBox x:Name="hashe" HorizontalAlignment="Center" Height="20" Margin="0,18,0,0" TextWrapping="NoWrap" Text="md5 or sha" VerticalAlignment="Top" Width="347" Background="#FF151515" GotFocus="clearhash" Grid.Column="1" Foreground="#FF51E80F" SelectionBrush="#FFE84B0F" SelectionTextBrush="#FFE80F0F" BorderBrush="Black"/>
+        <TextBox x:Name="cracked" HorizontalAlignment="Center" Height="116" Margin="0,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="347" Background="#FF151515" Grid.Column="1" Foreground="#FF13FF00" SelectionBrush="#FFD71E00" SelectionTextBrush="#FFFD0101" BorderBrush="#FF0B0C0E" IsReadOnly="True"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,160,0,0" TextWrapping="Wrap" Text="RaaS " VerticalAlignment="Top" Background="Black" Foreground="#7FFF0707" Height="16" Width="29" Grid.Column="2" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="87.354"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <Button x:Name="die" Content="die mf" HorizontalAlignment="Left" Margin="184,53,0,0" VerticalAlignment="Top" Width="172" Background="#FF18193C" Click="diemf" Height="20" Grid.Column="1" Foreground="#FFE01212" BorderBrush="#FF060404"/>
+
+    </Grid>
+</Window>
